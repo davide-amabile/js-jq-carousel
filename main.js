@@ -1,3 +1,6 @@
 $(document).ready(function(){
-  alert();
+  $(".next").click(function(){
+    $("img").removeClass("active");
+    $("img").next("img").addClass("active");
+  });
 });
