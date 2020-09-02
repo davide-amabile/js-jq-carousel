@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".next").click(function(){
-    $("img").removeClass("active");
-    $("img").next().addClass("active");
+    $("img.first").removeClass("active");
+    $("img.first").removeClass("first").next("img").addClass("active first");
   });
 });
