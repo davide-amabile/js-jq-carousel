@@ -51,16 +51,16 @@ $(document).ready(function(){
  }
 );
 
+// evento click .nav i.fas
+$(".nav i.fas").click(function(){
+  var circleActive = $(".nav i.active");
+  var bluCircle = circleActive.hasClass("active");
+  bluCircle = false;
+  if ( bluCircle == false) {
+    var newActive =$(this).addClass("active");
+    circleActive.removeClass("active");
+
+  
+);
+
 });
-
-
-
-//   // check = true;
-//   // if (check == true ) {
-//    imgActive.removeClass("active");
-//    imgActive.next("").addClass("active");
-// /*} else*/ if ($(".last") == imgActive) {
-//    $(".last").removeclass("active");
-//    $(".first").addClass("active");
-// }
-// });
